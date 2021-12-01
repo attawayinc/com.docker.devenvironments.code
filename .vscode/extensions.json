@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "jeff-hykin.better-dockerfile-syntax",
+        "ms-vscode-remote.remote-containers",
+        "formulahendry.docker-explorer"
+    ]
+}
