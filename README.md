@@ -18,11 +18,11 @@ This setup comes shipped with:
 + Composer
 + [WP-CLI](https://wp-cli.org/) - WP-CLI is the command-line interface for WordPress.
 + [PhpMyAdmin](https://www.phpmyadmin.net/) - free and open source administration tool for MySQL and MariaDB
-	- PhpMyAdmin config in `./config`
+  + PhpMyAdmin config in `./config`
 + CLI scripts
-	- Create a self signed SSL certificate for using https
-	- Trust certs in macOS System Keychain
-	- Setup the local domain in your in `/etc/hosts`
+  + Create a self signed SSL certificate for using https
+  + Trust certs in macOS System Keychain
+  + Setup the local domain in your in `/etc/hosts`
 
 ## Setup
 
@@ -47,7 +47,7 @@ APP_NAME=wp-dev
 DOMAIN="wp-dev.local"
 DB_HOST=mysql
 DB_NAME=wp-dev
-DB_ROOT_PASSWORD=password
+DB_ROOT_PASSWORD=AnVa0704
 DB_TABLE_PREFIX=wp_
 
 ```
@@ -62,7 +62,7 @@ Use the following database settings:
 DB_HOST=mysql
 DB_NAME=wp-dev
 DB_USER=root
-DB_PASSWORD=password
+DB_PASSWORD=AnVa0704
 ```
 
 ### Create SSL cert
@@ -119,6 +119,7 @@ Follow the instructions in  `./cli/windows scripts/setup-hosts-file.txt`
 ```shell
 docker-compose run composer install
 ```
+
 > If you have Composer installed on your computer you can also use `cd src && composer install`
 
 ### Update WordPress Core and Composer packages (plugins/themes)
@@ -151,7 +152,7 @@ PhpMyAdmin comes installed as a service in docker-compose.
 
 🚀 Open [http://127.0.0.1:8080/](http://127.0.0.1:8080/)  in your browser
 
-## Notes:
+## Notes
 
 When making changes to the Dockerfile, use:
 
@@ -180,25 +181,42 @@ Run a wp-cli command like this
 ### Changelog
 
 #### 2020-05-03
-- Added nginx gzip compression
+
++ Added nginx gzip compression
+
 #### 2020-04-19
-- Added Windows support for creating SSH cert, trusting it and setting up the host file entry. Thanks to [@styssi](https://github.com/styssi)
+
++ Added Windows support for creating SSH cert, trusting it and setting up the host file entry. Thanks to [@styssi](https://github.com/styssi)
+
 #### 2020-04-12
-- Remove port number from `DB_HOST`. Generated database connection error in macOS Catalina. Thanks to [@nirvanadev](https://github.com/nirvanadev)
-- Add missing ENV variable from mariadb Thanks to [@vonwa](https://github.com/vonwa)
+
++ Remove port number from `DB_HOST`. Generated database connection error in macOS Catalina. Thanks to [@nirvanadev](https://github.com/nirvanadev)
+
++ Add missing ENV variable from mariadb Thanks to [@vonwa](https://github.com/vonwa)
+
 #### 2020-03-26
-- Added phpMyAdmin config.Thanks to [@titoffanton](https://github.com/titoffanton)
+
++ Added phpMyAdmin config.Thanks to [@titoffanton](https://github.com/titoffanton)
+
 #### 2020-02-06
-- Readme improvements. Explain `/etc/hosts` better
+
++ Readme improvements. Explain `/etc/hosts` better
+
 #### 2020-01-30
-- Use `Entrypoint` command in Docker Compose to replace the domain name in the nginx config. Removing the need to manually edit the domain name in the nginx conf. Now using the `.env` value `DOMAIN`
-- Added APP_NAME in `.env-example` Thanks to [@Dave3o3](https://github.com/Dave3o3)
+
++ Use `Entrypoint` command in Docker Compose to replace the domain name in the nginx config. Removing the need to manually edit the domain name in the nginx conf. Now using the `.env` value `DOMAIN`
+
++ Added APP_NAME in `.env-example` Thanks to [@Dave3o3](https://github.com/Dave3o3)
+
 #### 2020-01-11
-- Added `.env` support for specifying your own app name, domain etc in Docker and cli scripts.
-- Added phpMyAdmin. Visit [http://127.0.0.1:8080/](http://127.0.0.1:8080/)
+
++ Added `.env` support for specifying your own app name, domain etc in Docker and cli scripts.
+
++ Added phpMyAdmin. Visit [http://127.0.0.1:8080/](http://127.0.0.1:8080/)
 
 #### 2019-08-02
-- Added Linux support. Thanks to [@faysal-ishtiaq](https://github.com/faysal-ishtiaq).
+
++ Added Linux support. Thanks to [@faysal-ishtiaq](https://github.com/faysal-ishtiaq).
 
 ***
 

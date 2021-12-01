@@ -1,4 +1,4 @@
-FROM urre/wordpress-nginx-docker-compose-image
+FROM php:7.4-fpm
 
 # Install wp-cli
 RUN curl -o /bin/wp-cli.phar https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
