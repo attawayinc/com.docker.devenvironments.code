@@ -1,7 +1,7 @@
 version: '3.6'
 services:
   nginx:
-    image: nginx:latest
+    image: insecurit/wordpress-nginx:poc
     container_name: ${APP_NAME}-nginx
     ports:
       - '80:80'
