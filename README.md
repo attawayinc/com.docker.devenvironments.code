@@ -29,7 +29,7 @@ This setup comes shipped with:
 ### Requirements
 
 + [Docker](https://www.docker.com/get-started)
-+ Openssl for creatng the SSL cert. Install using Homebrew `brew install openssl`
++ OpenSSL for creating the SSL cert. Install using Homebrew `brew install openssl`
 
 ### Setup environment variables
 
