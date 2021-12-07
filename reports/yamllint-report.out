@@ -1,0 +1,6 @@
+/app/docker-compose.yml:1:1: [warning] missing document start "---" (document-start)
+/app/docker-compose.yml:16:81: [error] line too long (149 > 80 characters) (line-length)
+/app/docker-compose.yml:22:8: [error] wrong indentation: expected 6 but found 7 (indentation)
+/app/.yarnrc.yml:1:1: [warning] missing document start "---" (document-start)
+/app/.travis.yml:1:1: [warning] missing document start "---" (document-start)
+/app/src/wp-cli.yml:1:1: [warning] missing document start "---" (document-start)

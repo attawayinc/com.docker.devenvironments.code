@@ -1,0 +1,243 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.3",
+  "serialNumber": "urn:uuid:db106748-2079-47f0-9418-5e17883cfe3f",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2021-12-07T01:36:32.826Z",
+    "tools": [
+      {
+        "vendor": "AppThreat",
+        "name": "cdxgen",
+        "version": "3.2.10"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Team AppThreat",
+        "email": "cloud@appthreat.com"
+      }
+    ]
+  },
+  "components": [
+    {
+      "group": "composer",
+      "name": "installers",
+      "version": "1.9.0",
+      "description": "A multi-framework Composer library installer",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:composer/composer/installers@1.9.0",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/composer/installers.git"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:composer/composer/installers@1.9.0"
+    },
+    {
+      "group": "oscarotero",
+      "name": "env",
+      "version": "1.2.0",
+      "description": "Simple library to consume environment variables",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:composer/oscarotero/env@1.2.0",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/oscarotero/env.git"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:composer/oscarotero/env@1.2.0"
+    },
+    {
+      "group": "phpoption",
+      "name": "phpoption",
+      "version": "1.7.3",
+      "description": "Option Type for PHP",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:composer/phpoption/phpoption@1.7.3",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/schmittjoh/php-option.git"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:composer/phpoption/phpoption@1.7.3"
+    },
+    {
+      "group": "roots",
+      "name": "wordpress",
+      "version": "5.4",
+      "description": "WordPress is web software you can use to create a beautiful website or blog.",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-or-later",
+            "url": "https://opensource.org/licenses/GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:composer/roots/wordpress@5.4",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/WordPress/WordPress.git"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:composer/roots/wordpress@5.4"
+    },
+    {
+      "group": "roots",
+      "name": "wordpress-core-installer",
+      "version": "1.1.0",
+      "description": "A custom installer to handle deploying WordPress with composer",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-or-later",
+            "url": "https://opensource.org/licenses/GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:composer/roots/wordpress-core-installer@1.1.0",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/roots/wordpress-core-installer.git"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:composer/roots/wordpress-core-installer@1.1.0"
+    },
+    {
+      "group": "roots",
+      "name": "wp-config",
+      "version": "1.0.0",
+      "description": "Collect configuration values and safely define() them",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:composer/roots/wp-config@1.0.0",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/roots/wp-config.git"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:composer/roots/wp-config@1.0.0"
+    },
+    {
+      "group": "roots",
+      "name": "wp-password-bcrypt",
+      "version": "1.0.0",
+      "description": "WordPress plugin which replaces wp_hash_password and wp_check_password's phpass hasher with PHP 5.5's password_hash and password_verify using bcrypt.",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:composer/roots/wp-password-bcrypt@1.0.0",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/roots/wp-password-bcrypt.git"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:composer/roots/wp-password-bcrypt@1.0.0"
+    },
+    {
+      "group": "symfony",
+      "name": "polyfill-ctype",
+      "version": "1.15.0",
+      "description": "Symfony polyfill for ctype functions",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:composer/symfony/polyfill-ctype@1.15.0",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/symfony/polyfill-ctype.git"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:composer/symfony/polyfill-ctype@1.15.0"
+    },
+    {
+      "group": "vlucas",
+      "name": "phpdotenv",
+      "version": "3.6.3",
+      "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:composer/vlucas/phpdotenv@3.6.3",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/vlucas/phpdotenv.git"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:composer/vlucas/phpdotenv@3.6.3"
+    }
+  ],
+  "externalReferences": [
+    {
+      "type": "other",
+      "url": "/app",
+      "comment": "Base path"
+    },
+    {
+      "type": "other",
+      "url": "/app/src/composer.lock",
+      "comment": "Package file"
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.3" serialNumber="urn:uuid:db106748-2079-47f0-9418-5e17883cfe3f" version="1">
+  <metadata>
+    <timestamp>2021-12-07T01:36:32.830Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>AppThreat</vendor>
+        <name>cdxgen</name>
+        <version>3.2.10</version>
+      </tool>
+    </tools>
+    <authors>
+      <author>
+        <name>Team AppThreat</name>
+        <email>cloud@appthreat.com</email>
+      </author>
+    </authors>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="pkg:composer/composer/installers@1.9.0">
+      <group>composer</group>
+      <name>installers</name>
+      <version>1.9.0</version>
+      <description><![CDATA[A multi-framework Composer library installer]]></description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+          <url>https://opensource.org/licenses/MIT</url>
+        </license>
+      </licenses>
+      <purl>pkg:composer/composer/installers@1.9.0</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/composer/installers.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:composer/oscarotero/env@1.2.0">
+      <group>oscarotero</group>
+      <name>env</name>
+      <version>1.2.0</version>
+      <description><![CDATA[Simple library to consume environment variables]]></description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+          <url>https://opensource.org/licenses/MIT</url>
+        </license>
+      </licenses>
+      <purl>pkg:composer/oscarotero/env@1.2.0</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/oscarotero/env.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:composer/phpoption/phpoption@1.7.3">
+      <group>phpoption</group>
+      <name>phpoption</name>
+      <version>1.7.3</version>
+      <description><![CDATA[Option Type for PHP]]></description>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+          <url>https://opensource.org/licenses/Apache-2.0</url>
+        </license>
+      </licenses>
+      <purl>pkg:composer/phpoption/phpoption@1.7.3</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/schmittjoh/php-option.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:composer/roots/wordpress@5.4">
+      <group>roots</group>
+      <name>wordpress</name>
+      <version>5.4</version>
+      <description><![CDATA[WordPress is web software you can use to create a beautiful website or blog.]]></description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-or-later</id>
+          <url>https://opensource.org/licenses/GPL-2.0-or-later</url>
+        </license>
+      </licenses>
+      <purl>pkg:composer/roots/wordpress@5.4</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/WordPress/WordPress.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:composer/roots/wordpress-core-installer@1.1.0">
+      <group>roots</group>
+      <name>wordpress-core-installer</name>
+      <version>1.1.0</version>
+      <description><![CDATA[A custom installer to handle deploying WordPress with composer]]></description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-or-later</id>
+          <url>https://opensource.org/licenses/GPL-2.0-or-later</url>
+        </license>
+      </licenses>
+      <purl>pkg:composer/roots/wordpress-core-installer@1.1.0</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/roots/wordpress-core-installer.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:composer/roots/wp-config@1.0.0">
+      <group>roots</group>
+      <name>wp-config</name>
+      <version>1.0.0</version>
+      <description><![CDATA[Collect configuration values and safely define() them]]></description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+          <url>https://opensource.org/licenses/MIT</url>
+        </license>
+      </licenses>
+      <purl>pkg:composer/roots/wp-config@1.0.0</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/roots/wp-config.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:composer/roots/wp-password-bcrypt@1.0.0">
+      <group>roots</group>
+      <name>wp-password-bcrypt</name>
+      <version>1.0.0</version>
+      <description><![CDATA[WordPress plugin which replaces wp_hash_password and wp_check_password's phpass hasher with PHP 5.5's password_hash and password_verify using bcrypt.]]></description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+          <url>https://opensource.org/licenses/MIT</url>
+        </license>
+      </licenses>
+      <purl>pkg:composer/roots/wp-password-bcrypt@1.0.0</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/roots/wp-password-bcrypt.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:composer/symfony/polyfill-ctype@1.15.0">
+      <group>symfony</group>
+      <name>polyfill-ctype</name>
+      <version>1.15.0</version>
+      <description><![CDATA[Symfony polyfill for ctype functions]]></description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+          <url>https://opensource.org/licenses/MIT</url>
+        </license>
+      </licenses>
+      <purl>pkg:composer/symfony/polyfill-ctype@1.15.0</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/symfony/polyfill-ctype.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:composer/vlucas/phpdotenv@3.6.3">
+      <group>vlucas</group>
+      <name>phpdotenv</name>
+      <version>3.6.3</version>
+      <description><![CDATA[Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.]]></description>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+          <url>https://opensource.org/licenses/BSD-3-Clause</url>
+        </license>
+      </licenses>
+      <purl>pkg:composer/vlucas/phpdotenv@3.6.3</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/vlucas/phpdotenv.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+  </components>
+  <externalReferences>
+    <reference type="other">
+      <url>/app</url>
+      <comment>Base path</comment>
+    </reference>
+    <reference type="other">
+      <url>/app/src/composer.lock</url>
+      <comment>Package file</comment>
+    </reference>
+  </externalReferences>
+</bom>

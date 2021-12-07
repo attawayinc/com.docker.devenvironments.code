@@ -1,0 +1,80 @@
+{
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "Shell Script Analysis",
+          "version": "1.0.0-scan",
+          "fullName": "Shell Script Analysis"
+        }
+      },
+      "conversion": {
+        "tool": {
+          "driver": {
+            "name": "@ShiftLeft/sast-scan"
+          }
+        },
+        "invocation": {
+          "arguments": [
+            "-a",
+            "--shell=bash",
+            "-f",
+            "json",
+            "-S",
+            "error",
+            "--color=never",
+            "/app/cli/setup-hosts-file.sh",
+            "/app/cli/create-cert.sh",
+            "/app/cli/trust-cert.sh"
+          ],
+          "executionSuccessful": true,
+          "commandLine": "-a --shell=bash -f json -S error --color=never /app/cli/setup-hosts-file.sh /app/cli/create-cert.sh /app/cli/trust-cert.sh",
+          "endTimeUtc": "2021-12-07T01:36:31Z",
+          "workingDirectory": {
+            "uri": "file:///home/insecurit/Projects/wordpress-nginx-docker-compose-master"
+          }
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true,
+          "endTimeUtc": "2021-12-07T01:36:31Z",
+          "workingDirectory": {
+            "uri": "file:///home/insecurit/Projects/wordpress-nginx-docker-compose-master"
+          }
+        }
+      ],
+      "properties": {
+        "metrics": {
+          "total": 0,
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        }
+      },
+      "results": [],
+      "automationDetails": {
+        "description": {
+          "text": "Static Analysis Security Test results using @ShiftLeft/sast-scan"
+        },
+        "guid": "8a644db0-ee75-4a70-932c-983dbc545800"
+      },
+      "versionControlProvenance": [
+        {
+          "branch": "main",
+          "repositoryUri": "https://github.com/attawayinc/com.docker.devenvironments.code",
+          "revisionId": "bb8f1a953bf9a12d1559d5b36a680cde494e8828"
+        }
+      ]
+    }
+  ],
+  "version": "2.1.0",
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "inlineExternalProperties": [
+    {
+      "guid": "8a644db0-ee75-4a70-932c-983dbc545800",
+      "runGuid": "5603fb33-cea4-4110-a2d8-ab959b725b8b"
+    }
+  ]
+}
